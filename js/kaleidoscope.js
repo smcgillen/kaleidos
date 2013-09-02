@@ -21,10 +21,10 @@ $( document ).ready( function () {
   var auto_throttle;
 
   // PARAMETER: *s* is the speed of the automatic timeout animation.
-  var s = parameters.s || 3;
+  var s = parameters.s || 1;
 
   // PARAMETER: *n* is the number of segments.
-  var n = ~~parameters.n || 7;
+  var n = ~~parameters.n || 5;
   var tiles = '';
   if ( n ) {
     for ( var i = 0; i <= n * 2; i++ ) {
